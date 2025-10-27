@@ -35,6 +35,16 @@ apt install hashcat -y
 
 Repo: https://termuxvoid.github.io/
 
+### Uninstall
+
+* Remove hashcat
+
+```ShellSession
+rm -rf "$PREFIX/opt/hashcat"
+rm -rf "$HOME/.local/share/hashcat"
+rm -rf "$PREFIX/bin/hashcat"
+```
+
 ### Author
 
 [Alienkrishn](https://github.com/Anon4You)
