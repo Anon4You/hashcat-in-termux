@@ -14,20 +14,20 @@ Hashcat is the world's fastest password recovery tool. It supports multiple atta
 
 ### Script Features
 
-· Installs Hashcat with full OpenCL support
-· Sets up all required dependencies
-· Optimized for Termux environment
-· One-command installation
+* Installs Hashcat with full OpenCL support
+* Sets up all required dependencies
+* Optimized for Termux environment
+* One-command installation
 
 ### Installation
 
-Quick install:
+* Quick install:
 
 ```bash
 curl -sL https://github.com/Anon4You/hashcat-in-termux/raw/main/hashcat.sh | bash
 ```
 
-From TermuxVoid repo:
+* From TermuxVoid repo:
 
 ```bash
 apt install hashcat -y
@@ -37,4 +37,4 @@ Repo: https://termuxvoid.github.io/
 
 ### Author
 
-Alienkrishn (github.com/Anon4You)
+[Alienkrishn](https://github.com/Anon4You)
