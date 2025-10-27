@@ -36,7 +36,7 @@ DOWNLOAD_EXTRACT(){
   wget --show-progress -q --progress=bar:force:noscroll -O "$TMPDIR/hashcat-7.1.2.zip" \
 https://github.com/hashcat/hashcat/archive/refs/tags/v7.1.2.zip
   
-  unzip -q "$TMPDIR/hashcat-7.1.2.zip" -d "$TMPDIR" || print_error "Extraction failed"
+  unzip -q "$TMPDIR/hashcat-7.1.2.zip" -d "$TMPDIR" || echo -e "${RED}Extraction failed"
 mv "$TMPDIR/hashcat-7.1.2" "$HASHCAT_DIR"
 }
 
